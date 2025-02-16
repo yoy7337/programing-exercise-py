@@ -14,3 +14,4 @@ for i in range(0, len(str)):
   reversed_str = reversed_str + (str[len(str) - i - 1])
 
 print(reversed_str)
+

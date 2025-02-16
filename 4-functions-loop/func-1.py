@@ -8,9 +8,11 @@ def cube(num):
     cube_num = num**3  # Could also use pow(num, 3)
     return cube_num
 
+a = cube(0)
 
-print(f"0 cubed is {cube(0)}")
-print(f"2 cubed is {cube(2)}")
+print("0 cubed is " + a)
+print(f"0 cubed is {a}" )
+print(f"2 cubed is {cube(2)+cube(3)}")
 
 
 # Exercise 2
