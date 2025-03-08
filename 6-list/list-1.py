@@ -6,7 +6,6 @@
 # Create a list named food with two elements "rice" and "beans".
 food = ["rice", "beans"]
 
-
 # Exercise 2
 # Append the string "broccoli" to the food list using .append()
 food.append("broccoli")
@@ -29,12 +28,13 @@ print(food[0:2])
 # Print the last item in food using index notation
 print(food[-1])
 
+print(food)
 
 # Exercise 6
 # Create a list called breakfast from the string "eggs, fruit, orange juice"
 breakfast = "eggs, fruit, orange juice".split(", ")
 
-
+print(breakfast)
 # Exercise 7
 # Verify that breakfast has three items using len()
 print(len(breakfast) == 3)

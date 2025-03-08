@@ -17,10 +17,23 @@ class Solution:
 
 nums1 = [1, 2, 3]  # List 初始值
 m = 3
-nums2 = [2, 5, 6]  # 另一個 List 初始值
+nums2 = [4, 5, 6]  # 另一個 List 初始值
 n = 3
 num = [0, 0 ,0 ,0 ,0 ,0]
 
 solution = Solution()
 solution.merge(nums1, m, nums2, n, num)
 print(num)  # 輸出: [1, 2, 2, 3, 5, 6]
+
+index_1 =0
+index_2 =0
+index_3 =0
+while True:
+    if nums1[index_1] < nums2[index_2]:
+        num[index_3] = nums1[index_1]
+        index_1 = index_1 + 1
+        index_3 += 1
+    else:
+        num[index_3] = nums2[index_2]
+        index_2 = index_2 + 1
+        index_3 += 1

@@ -10,7 +10,7 @@ class Animal:
 class Cat(Animal):
     def speak(self):
         return f"{self.name} says meow!"
-    
+
     def purr(self):
         return f"{self.name} is purring..."
 
