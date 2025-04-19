@@ -4,9 +4,6 @@ import pandas as pd
 # Connect to SQLite database
 conn = sqlite3.connect('user_order.sqlite')
 
-# Create a cursor object
-cur = conn.cursor()
-
 def main():
     # Query 1: Select all users
     print(">>> pd.read_sql_query('SELECT * FROM users', conn)")
